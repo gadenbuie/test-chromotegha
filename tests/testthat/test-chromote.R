@@ -1,4 +1,4 @@
-chromote::default_chromote_object()$new_session()
+options(chromote.timeout = 120)
 
 test_that("chromote works", {
   session <- chromote::ChromoteSession$new()
